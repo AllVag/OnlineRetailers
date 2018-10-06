@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8C9FA4AE-FCFF-45F7-A25B-3BD7D047D92C}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Phone</RootNamespace>
+    <AssemblyName>Phone</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="css\login.css" />
+    <Content Include="images\banner_bd.jpg" />
+    <Content Include="images\biao_duigouh.jpg" />
+    <Content Include="images\biao_X_h.jpg" />
+    <Content Include="images\bj_zhuce.jpg" />
+    <Content Include="images\btn_shangchuan.jpg" />
+    <Content Include="images\car.png" />
+    <Content Include="images\center-menu-icon.png" />
+    <Content Include="images\corner.jpg" />
+    <Content Include="images\delete.png" />
+    <Content Include="images\delete_f.png" />
+    <Content Include="images\describeImg.jpg" />
+    <Content Include="images\diy_03.jpg" />
+    <Content Include="images\diy_05.jpg" />
+    <Content Include="images\diy_07.jpg" />
+    <Content Include="images\diy_09.jpg" />
+    <Content Include="images\diy_11.jpg" />
+    <Content Include="images\diy_11f.jpg" />
+    <Content Include="images\diy_13.jpg" />
+    <Content Include="images\diy_15.jpg" />
+    <Content Include="images\diy_17.jpg" />
+    <Content Include="images\diy_28.jpg" />
+    <Content Include="images\diy_35.jpg" />
+    <Content Include="images\diy_39.jpg" />
+    <Content Include="images\diy_41.jpg" />
+    <Content Include="images\diy_44.jpg" />
+    <Content Include="images\diy_48.jpg" />
+    <Content Include="images\diy_50.jpg" />
+    <Content Include="images\diy_55.jpg" />
+    <Content Include="images\diy_57.jpg" />
+    <Content Include="images\diy_59.jpg" />
+    <Content Include="images\diy_65.jpg" />
+    <Content Include="images\diy_67.jpg" />
+    <Content Include="images\diy_71.jpg" />
+    <Content Include="images\diy_73.jpg" />
+    <Content Include="images\diy_biaochi_bg.jpg" />
+    <Content Include="images\diy_biao_tx.png" />
+    <Content Include="images\diy_tx_03.jpg" />
+    <Content Include="images\diy_tx_05.jpg" />
+    <Content Include="images\diy_tx_07.jpg" />
+    <Content Include="images\diy_tx_09.jpg" />
+    <Content Include="images\diy_tx_11.jpg" />
+    <Content Include="images\diy_tx_13.jpg" />
+    <Content Include="images\duigou_bai.png" />
+    <Content Include="images\edit-delete.png" />
+    <Content Include="images\emptyCar.jpg" />
+    <Content Include="images\headImg-01.png" />
+    <Content Include="images\headImg-02.png" />
+    <Content Include="images\headImg-03.png" />
+    <Content Include="images\headImg-1 - 副本.jpg" />
+    <Content Include="images\headImg-1.jpg" />
+    <Content Include="images\headImg-btn.png" />
+    <Content Include="images\headImg.jpg" />
+    <Content Include="images\headImg.png" />
+    <Content Include="images\img-01.jpg" />
+    <Content Include="images\jiesuan_dg.png" />
+    <Content Include="images\line_heng.jpg" />
+    <Content Include="images\line_shu.jpg" />
+    <Content Include="images\list-icon.jpg" />
+    <Content Include="images\menu.png" />
+    <Content Include="images\new.png" />
+    <Content Include="images\online.jpg" />
+    <Content Include="images\part-05.jpg" />
+    <Content Include="images\qq.jpg" />
+    <Content Include="images\searchSub.png" />
+    <Content Include="images\shoppingImg-01.jpg" />
+    <Content Include="images\sj.png" />
+    <Content Include="images\smallMirror.png" />
+    <Content Include="images\tubiao_more.png" />
+    <Content Include="images\vip.png" />
+    <Content Include="images\wangjimm_hui.png" />
+    <Content Include="images\wangjimm_lan.png" />
+    <Content Include="images\weixin.jpg" />
+    <Content Include="images\wrz.png" />
+    <Content Include="images\xg.png" />
+    <Content Include="images\xg_f.png" />
+    <Content Include="images\zc_03.jpg" />
+    <Content Include="images\zc_06.jpg" />
+    <Content Include="images\zc_10.jpg" />
+    <Content Include="images\zc_12.jpg" />
+    <Content Include="images\zc_15.jpg" />
+    <Content Include="images\zc_16.jpg" />
+    <Content Include="images\zc_19.jpg" />
+    <Content Include="images\zc_22.jpg" />
+    <Content Include="images\zc_25.jpg" />
+    <Content Include="js\jquery.min.js" />
+    <Content Include="login.aspx" />
+    <Content Include="MainFrame.aspx" />
+    <Content Include="VerifyCode.aspx" />
+    <Content Include="register.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Common\MD5Util.cs" />
+    <Compile Include="login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="login.aspx.designer.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MainFrame.aspx.cs">
+      <DependentUpon>MainFrame.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MainFrame.aspx.designer.cs">
+      <DependentUpon>MainFrame.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="VerifyCode.aspx.cs">
+      <DependentUpon>VerifyCode.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="VerifyCode.aspx.designer.cs">
+      <DependentUpon>VerifyCode.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="register.aspx.cs">
+      <DependentUpon>register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="register.aspx.designer.cs">
+      <DependentUpon>register.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="images\Thumbs.db" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>64822</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:64822/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
